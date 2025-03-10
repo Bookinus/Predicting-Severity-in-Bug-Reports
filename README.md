@@ -1,4 +1,4 @@
-# Thesis: Automated Severity Classification in Bug Reports : Evaluating a Hybrid BERT and K-Means Approach
+# Thesis: Automated Severity Classification in Bug Reports - Evaluating a Hybrid BERT and K-Means Approach
 
 ## Overview
 This study investigates the use of a machine learning model that combines BERT (Bidirectional Encoder Representations from Transformers) and K-means clustering to predict the severity of bug reports. The primary objective is to explore how well this model can classify bug report severity levels based on various features of the reports.
