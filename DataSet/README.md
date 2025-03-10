@@ -25,7 +25,7 @@ A key challenge with bug reports is the use of different severity scales across 
 - S3 → Normal
 - S4 → Minor
 
-##Final Severity Scale
+## Final Severity Scale
 After standardizing, the severity scale follows this order from most to least severe:
 
 - Blocker
