@@ -1,4 +1,4 @@
-"bugID";"Time";"TextDescription";"dt";"cl";"pd";"co";"rp";"OS";"bs";"rs";"Priority";"bsr";"re";"at"
+"bugID";"ct";"TextDescription";"dt";"cl";"pd";"co";"rp";"OS";"bs";"rs";"Priority";"Severity";"Reporter";"Assignee"
 "1600000";"2019-11-28 01:50:26 -0800";"Simplify functions to select a search engine list in search's xpcshell head.js";"2019-11-28 13:55:49 -0800";"Client Software";"Firefox";"Search";"Unspecified";"Unspecified";"RESOLVED";"FIXED";"P2";"normal";"standard8";"standard8"
 "1600002";"2019-11-28 02:00:31 -0800";"[wpt-sync] Sync PR 20497 - Add tests for content-dpr, separate from client-hints";"2019-12-04 20:35:56 -0800";"Components";"Testing";"web-platform-tests";"All";"All";"RESOLVED";"FIXED";"P4";"normal";"wptsync";"wptsync"
 "1600003";"2019-11-28 02:06:25 -0800";"2.45% displaylist_mutate (linux64-shippable) regression on push b73b86efe266cba006e14a3b181508ab960ee805 (Thu November 6 2019)";"2019-12-03 10:58:52 -0800";"Components";"Core";"Graphics: Layers";"Unspecified";"Unspecified";"RESOLVED";"INVALID";"--";"normal";"aionescu";"nobody"

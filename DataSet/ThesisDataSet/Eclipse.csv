@@ -1,4 +1,4 @@
-"bugID";"TextDescription";"cl";"pd";"co";"rp";"OS";"bs";"rs";"Priority";"bsr"
+"bugID";"TextDescription";"cl";"pd";"co";"rp";"OS";"bs";"rs";"Priority";"Severity"
 "550000";"PDE quickfix creates invalid @Since tag";"Eclipse Project";"PDE";"API Tools";"PC";"Linux";"VERIFIED";"FIXED";"P3";"normal"
 "550001";"Grant access to projects storage service to the Jenkins instance of project TEA";"Eclipse Foundation";"Community";"CI-Jenkins";"PC";"Linux";"CLOSED";"DUPLICATE";"P3";"normal"
 "550002";"Add relation information to REST-API";"Automotive";"MDMBL";"General";"All";"All";"CLOSED";"FIXED";"P3";"major"
