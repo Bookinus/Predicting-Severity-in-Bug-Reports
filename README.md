@@ -35,7 +35,7 @@ like Accuracy (ACC), Normalized Mutual Information (NMI), and Adjusted Rand Inde
 which will be used to measure the performance of the model. 
 
 ## Dataset
-The bug reports for this study are sourced from a dataset from Kaggle ([Software Bug Reports - Kaggle Dataset](https://www.kaggle.com/datasets/samanthakumara/software-bug-reports)) through secondary data collection. This dataset consists of Bugzilla bug reports and will be used to fine-tune a pre-trained BERT model.
+The bug reports for this study are sourced from a dataset from Kaggle ([Software Bug Reports - Kaggle Dataset](https://www.kaggle.com/datasets/samanthakumara/software-bug-reports)) through secondary data collection. This dataset consists of Bugzilla bug reports from different open source projects.
 
 ## Model Implementation
 
