@@ -1,26 +1,31 @@
 # Thesis: Automated Bug Severity Classification from Bug Reports - Evaluating a Hybrid BERT and K-means Approach
 
 ## Overview
-This implementation is a result from the bachelor thesis "Automated Bug Severity
-Classification from Bug Reports - Evaluating a Hybrid BERT and K-means Approach"
-
-As software becomes more integral to modern life, the challenge of managing
-bugs in large-scale projects grows. Bug tracking systems help address this issue,
-and automating parts of the maintenance process using machine learning has
-emerged as a promising solution to reduce manual effort and enhance efficiency.
-
-Advancements in machine learning, driven by affordable hardware and vast data
-availability, have enabled the automation of software maintenance tasks such as
-bug categorization, prioritization, triage, and severity prediction. Additionally,
-pre-trained NLP models have contributed to research in this field. Further
-research is needed to evaluate the effectiveness of state-of-the-art pre-trained
-natural language processing models in combination with unsupervised cluster-
-ing algorithms for automating the classification of Bugzilla bug report severity
-levels.
-
-Therefore, the research question is:
-- How well can a machine learning model combining BERT and K-means predict
-severity in bug reports?
+Modern society depends on high-quality software, and bug tracking systems
+help developers identify, monitor and resolve problems. Accurately assigning
+the severity of a bug is crucial for efficient planning. However, the complexity
+of bug reports demands significant resources for manual processing. Automat-
+ing the assignment of severity levels through machine learning has been a topic
+of research in recent years, however it is not exhaustive. This study implements
+a combination of BERT, a pre-trained natural language processing model, and
+K-means clustering, an unsupervised machine learning algorithm, to evaluate
+the performance in predicting bug severity levels and the quality of the resulting
+clusters. A machine learning model was developed using Bugzilla bug reports
+from an open-source project. After pre-processing, BERT was fine-tuned, and
+K-means clustering was applied to predict bug severity levels. The accuracy
+of the model is evaluated after fine-tuning, and the quality of the clusters is
+assessed by comparing them to the actual labels using the Adjusted Rand In-
+dex (ARI) and Normalized Mutual Information (NMI). The best results were
+achieved when the model was trained for 3 epochs with a batch size of 8. After
+fine-tuning, the accuracy reached 0.6535, while the clustering results showed an
+NMI of 0.0477 and an ARI of 0.0214. All model configurations yielded similar
+scores, indicating consistently poor results. This suggests that the clustering
+does not align well with the underlying label structure and is only slightly bet-
+ter than random chance. Possible reasons include inconsistencies in severity
+level definitions across the three projects, class imbalance, or the unsuitability
+of K-means for this data. Additionally, given that other research has achieved
+better results, the differences may be attributed to implementation issues or
+different configurations.
 
 ## Research Approach
 This study employs an experimental design to manipulate independent variables such as batch size
