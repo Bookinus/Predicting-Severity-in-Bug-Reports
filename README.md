@@ -45,7 +45,6 @@ to group bug reports based on severity. The fine-tuned BERT model produces embed
 which are used for clustering to predict severity levels. The performance of the clustering 
 is evaluated using metrics such as NMI and ARI.
 
-
 ## Evaluation Metrics
 The accuracy of the model is evaluated after fine-tuning, and the quality of the
 clusters is assessed by comparing them to the actual labels using the Adjusted
@@ -70,7 +69,7 @@ experiments.
 - pandas 2.2.3: Used for the data structure DataFrame
 
 ## Folder Structure
-
+```
 Project Folder/
 ├── DataSet/
 │   ├── OriginalDataSet/
@@ -89,6 +88,7 @@ Project Folder/
 │   └── CleanDataSet.ipynb
 │   └── Model.ipynb
 └── README.md
+```
 
 ## How to Run the Code
 You can install the required libraries using pip:
